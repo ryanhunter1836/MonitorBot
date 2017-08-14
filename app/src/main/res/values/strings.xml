@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MonitorBot</string>
+    <string name="distance">Enter a message</string>
+    <string name="button_send">SEND</string>
+    <string name="title_activity_binding">BindingActivity</string>
+    <string-array name="modes_array">
+        <item>User Control</item>
+        <item>Record Path</item>
+        <item>Execute Path</item>
+    </string-array>
+</resources>
