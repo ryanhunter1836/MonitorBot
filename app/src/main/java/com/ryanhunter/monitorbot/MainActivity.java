@@ -231,7 +231,6 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
         }
     }
 
-
     @Override
     protected void onStart() {
         super.onStart();
@@ -327,15 +326,12 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
         try {
             if (media.length() > 0) {
                 Toast toast = Toast.makeText(this, media, Toast.LENGTH_LONG);
-                toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0,
-                        0);
+                toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);
                 toast.show();
             }
 
             // Create LibVLC
-            // TODO: make this more robust, and sync with audio demo
             ArrayList<String> options = new ArrayList<String>();
-            //options.add("--subsdec-encoding <encoding>");
             options.add("--aout=opensles");
             options.add("--audio-time-stretch"); // time stretching
             options.add("-vvv"); // verbosity
@@ -349,7 +345,6 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
             // Seting up video output
             final IVLCVout vout = mMediaPlayer.getVLCVout();
             vout.setVideoView(mSurface);
-            //vout.setSubtitlesView(mSurfaceSubtitles);
             vout.addCallback(this);
             vout.attachViews();
 
@@ -375,6 +370,7 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
         mVideoWidth = 0;
         mVideoHeight = 0;
     }
+
     private MediaPlayer.EventListener mPlayerListener = new MyPlayerListener(this);
 
     @Override

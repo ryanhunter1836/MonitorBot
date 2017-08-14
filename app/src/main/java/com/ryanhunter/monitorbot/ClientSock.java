@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
-import android.os.RemoteException;
 import java.net.*;
 import java.io.*;
 import java.util.ArrayList;
@@ -145,7 +144,7 @@ public class ClientSock extends Service {
                             catch(Exception r) {}
 
                         }
-                        Thread.sleep(300);
+                        Thread.sleep(100);
                     }
                 }
                 catch (UnknownHostException e) {
