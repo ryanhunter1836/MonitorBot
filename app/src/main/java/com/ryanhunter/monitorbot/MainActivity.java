@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
                     Toast.makeText(getApplicationContext(), "Socket Error", Toast.LENGTH_SHORT).show();
                     break;
                 case ClientSock.BATTERY_LEVEL:
-                    double percentage = ((msg.arg1 - 320.0) / 560.0);
+                    double percentage = ((msg.arg1 - 550) / 200.0);
                     robotBattery.setProgress((int) Math.round((percentage * 100)));
                     break;
                 default:
