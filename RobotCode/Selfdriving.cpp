@@ -45,6 +45,7 @@ int main()
     thread motorThread(MotorController, data);
     int commands[3][2] = {{1, 25000}};
     //cout << "1" << endl;
+    //loop through the commands 
     for(auto& element : commands)
     {
         int rightCount = 0;
