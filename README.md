@@ -1,6 +1,6 @@
 MonitorBot is a robot designed to autonomously patrol your house while you're not home.
 It not only streams video to your phone, but it also has a thermal camera to allow the user to check for leaks inside walls as well
-as view if their doors are leaking or their refrigerator is left open.  All these features will be available from anywhere in the world
+as view if their doors are not sealed or their refrigerator is left open.  All these features will be available from anywhere in the world
 through an encrypted VPN tunnel
 
 Current Progress:
