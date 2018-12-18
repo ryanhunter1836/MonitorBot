@@ -1,3 +1,5 @@
+//Get the distance from the front of the robot using the ultrasonic sensor
+
 #include <roboticscape.h>
 #include <rc_usefulincludes.h> 
 #define TRIGGER BLUE_GP0_PIN_3
