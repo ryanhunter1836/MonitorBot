@@ -1,3 +1,5 @@
+//Detect motion using image processing
+
 //opencv
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/video/background_segm.hpp>
