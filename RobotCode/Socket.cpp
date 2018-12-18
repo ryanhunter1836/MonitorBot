@@ -1,3 +1,5 @@
+//Open a socket to the server and send current status
+
 //c++
 #include <iostream>
 #include <string>
