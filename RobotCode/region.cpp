@@ -1,3 +1,5 @@
+//Draw a box around a region of interest to identify objects the camera is looking at
+
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
