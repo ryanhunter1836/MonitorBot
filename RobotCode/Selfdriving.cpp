@@ -1,8 +1,12 @@
+//Feature that allows the robot to follow a predefined map
+//STILL IN DEVELOPMENT
+
 #include <iostream>
 #include <thread>
 #include <vector>
 
-extern "C" {
+extern "C" 
+{
         #include <roboticscape.h>
         #include <rc_usefulincludes.h> 
         int rc_initialize();
