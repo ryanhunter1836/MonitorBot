@@ -1,3 +1,6 @@
+//There may be more resistance on one side of the robot than the other, causing it to stray to one direction
+//This program adjusts the power on each motor to make it drive in a stright line
+
 #include <iostream>
 #include <string>
 #include <thread>
